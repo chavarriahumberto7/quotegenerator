@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+        <!-- some of the meta caractger to get it done -->
+<!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="http://127.0.0.1/JS/quote-generator/" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Your Website Title" />
+<meta property="og:description"   content="Your description" />
+<meta property="og:image"         content="http://127.0.0.1/JS/quote-generator/favicon.png" />
+</head>
+
+<body>
+
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+
+        </div>
+        <div class="quote-author">
+            <!-- AAuthor element -->
+            <span id="author"> </span>
+        </div>
+        <div class="button-container">
+            <button class="twitter-button" id="facebook" tittle="Tweet This!">
+                <i class="fab fa-facebook"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+
+    </div>
+
+<!-- Load Facebook SDK for JavaScript -->
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<!-- <div class="fb-share-button" 
+data-href="http://127.0.0.1/JS/quote-generator/" 
+data-layout="button_count">
+</div> -->
+ -->
+
+    <!-- loader -->
+
+    <div class="loader" id="loader"></div>
+
+
+
+
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
