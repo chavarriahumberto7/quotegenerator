@@ -1,2 +1,2 @@
-#QuoteGenerator
-This will automatically generates quotes using ajax pull.
+# QuoteGenerator
+# This will automatically generates quotes using ajax pull.
